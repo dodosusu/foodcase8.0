@@ -12,5 +12,23 @@ break;
 case 2:
 food="biscuit";
 break;
+case 3:
+food ="sushi";
+break;
+case 4:
+food="hamburger";
+break;
+case 5:
+food="steak";
+break;
+case 6:
+food ="tea";
+break;
+case 7:
+food="coffee";
+break;
+case 8:
+food="water";
+break;
 }
 Console.WriteLine("Random recommendation"+food +".");

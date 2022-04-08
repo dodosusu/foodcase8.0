@@ -1,0 +1,16 @@
+string food = "fruit";
+Random random = new Random();
+int i = random.Next(0, 12); // 0 <= i < 100
+switch(i)
+{
+case 0:
+food ="fruit";
+break;
+case 1:
+food="beer";
+break;
+case 2:
+food="biscuit";
+break;
+}
+Console.WriteLine("Random recommendation"+food +".");
